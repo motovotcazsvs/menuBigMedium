@@ -215,14 +215,14 @@ Window {
                 id: imArrow1
                 anchors.centerIn: recB2
                 anchors.margins: 1
-                source: "images/МЕНЮ Часы 1 страница маленькая стрелка"
+                source: "images/МЕНЮ Часы 1 страница маленькая стрелка.png"
             }
 
             Image {
                 id: imArrow2
                 anchors.centerIn: recB2
                 anchors.margins: 1
-                source: "images/МЕНЮ Часы 1 страница большая стрелка"
+                source: "images/МЕНЮ Часы 1 страница большая стрелка.png"
             }
 
 
