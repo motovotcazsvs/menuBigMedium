@@ -88,8 +88,9 @@ Window {
                 anchors.fill: recB1
                 anchors.margins: 1
                 source: (but1.pressed || but2.pressed || but3.pressed || but1_1.pressed|| but1_2.pressed)
-                    ? "images/МЕНЮ Результаты 1 страница2.png"
-                    : "images/МЕНЮ Результаты 1 страница.png"
+                    ? "images/МЕНЮ Измерения 1 страница2.png"
+                    : "images/МЕНЮ Измерения 1 страница.png"
+
             }
 
             Rectangle {
@@ -207,11 +208,25 @@ Window {
                 id: imBye2
                 anchors.fill: recB2
                 anchors.margins: 1
-                source: (but4.pressed || but5.pressed || but6.pressed || but2_1.pressed|| but2_2.pressed)
-                    ? "images/МЕНЮ Часы 1 страница2.png"
-                    : "images/МЕНЮ Часы 1 страница.png"
+                source: "images/МЕНЮ Часы 1 страница.png"
             }
 
+            Image {
+                id: imArrow1
+                anchors.centerIn: recB2
+                anchors.margins: 1
+                source: "images/МЕНЮ Часы 1 страница маленькая стрелка"
+            }
+
+            Image {
+                id: imArrow2
+                anchors.centerIn: recB2
+                anchors.margins: 1
+                source: "images/МЕНЮ Часы 1 страница большая стрелка"
+            }
+
+
+/*
             Rectangle {
                 id:rec4
                 x: mouse_range1_x
@@ -306,7 +321,7 @@ Window {
                     }
                 }
             }
-
+*/
 
         }
 
@@ -324,8 +339,9 @@ Window {
                 anchors.fill: recB3
                 anchors.margins: 1
                 source: (but7.pressed || but8.pressed || but9.pressed || but3_1.pressed|| but3_2.pressed)
-                    ? "images/контроль качества 1 страница2.png"
-                    : "images/контроль качества 1 страница.png"
+                    ? "images/МЕНЮ Результаты 1 страница2.png"
+                    : "images/МЕНЮ Результаты 1 страница.png"
+
             }
 
             Rectangle {
@@ -439,8 +455,9 @@ Window {
                 anchors.fill: recB4
                 anchors.margins: 1
                 source: (but10.pressed || but11.pressed || but12.pressed || but4_1.pressed|| but4_2.pressed)
-                    ? "images/МЕНЮ Служебные 1 страница2.png"
-                    : "images/МЕНЮ Служебные 1 страница.png"
+                    ? "images/МЕНЮ Контроль качества 1 страница2.png"
+                    : "images/МЕНЮ Контроль качества 1 страница.png"
+
             }
 
             Rectangle {
@@ -554,8 +571,9 @@ Window {
                 anchors.fill: recB5
                 anchors.margins: 1
                 source: (but13.pressed || but14.pressed || but15.pressed || but5_1.pressed|| but5_2.pressed)
-                    ? "images/МЕНЮ Измерения 1 страница2.png"
-                    : "images/МЕНЮ Измерения 1 страница.png"
+                    ? "images/МЕНЮ Разогрев 1 страница2.png"
+                    : "images/МЕНЮ Разогрев 1 страница.png"
+
             }
 
             Rectangle {
@@ -784,8 +802,9 @@ Window {
                 anchors.fill: recB7
                 anchors.margins: 1
                 source: (but19.pressed || but20.pressed || but21.pressed || but7_1.pressed|| but7_2.pressed)
-                    ? "images/МЕНЮ Разогрев 1 страница2.png"
-                    : "images/МЕНЮ Разогрев 1 страница.png"
+                    ? "images/МЕНЮ Служебные 1 страница2.png"
+                    : "images/МЕНЮ Служебные 1 страница.png"
+
             }
 
             Rectangle {
